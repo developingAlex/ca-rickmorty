@@ -1,0 +1,10 @@
+<h1>Make a new character</h1>
+<p>
+</p>
+
+<%= form_for @character do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+
+<%= f.submit 'Save Character' %>
+<% end %>
