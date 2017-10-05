@@ -1,24 +1,8 @@
-# README
+# CoderAcademy task - create a simple ruby app
+## Rick and Morty quotes aggregator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Initial ERD
+The initial entity diagram we made looked like this:
+![initial entity relationship diagram](readme-assets/initial-erd.png)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Where it was later revised is the Character model had its *episodes_appeared_in* attribute removed as that is conveyed through the quote relationship as Character *has many* Episodes *through* Quote.
